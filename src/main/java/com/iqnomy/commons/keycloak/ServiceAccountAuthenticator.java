@@ -34,6 +34,8 @@ import org.keycloak.util.JsonSerialization;
 /**
  * Use {@linkplain #authenticate()} to get an access token for a Keycloak service account.
  * 
+ * Instances of this class are not thread-safe.
+ * 
  * Based on https://github.com/keycloak/keycloak/blob/master/examples/demo-template/service-account/src/main/java/org/keycloak/example/ProductServiceAccountServlet.java
  * 
  */
