@@ -4,7 +4,8 @@ For now only the class `com.iqnomy.commons.keycloak.ServiceAccountAuthenticator`
 Basically this can be done like this:
 
 ```java
-ServiceAccountAuthenticator serviceAccountAuthenticator = new ServiceAccountAuthenticator(keycloakConfigInputStream);
+InputStream is = new FileInputStream("keycloak.json");
+ServiceAccountAuthenticator serviceAccountAuthenticator = new ServiceAccountAuthenticator(is);
 serviceAccountAuthenticator.authenticate();
 ````
 The `authenticate()` method will log you in if not logged, or will refresh the token if expired.
