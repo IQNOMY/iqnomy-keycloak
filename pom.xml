@@ -3,14 +3,14 @@
 	<parent>
 		<artifactId>asknow-root</artifactId>
 		<groupId>nl.asknow</groupId>
-		<version>1.5-SNAPSHOT</version>
+		<version>1.4.8</version>
 		<relativePath>../asknow/pom.xml</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.iqnomy.commons</groupId>
 	<artifactId>iqnomy-keycloak</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>IQNOMY Keycloak</name>
